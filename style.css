@@ -1,0 +1,42 @@
+.game-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#game-board { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    }
+.square { 
+    width: 100px; 
+    height: 100px; 
+    background: #ddd;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;
+    border: 1px solid #999; 
+    background-color: azure;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#winner-display{
+    background-color: #999;
+    color: black;
+    margin-top: 20px;
+    width: 100px;
+    margin-top: 30px;
+}
+#winner-name{
+    font-size: 20px;
+    height: 40px;
+}
+#submit-button{
+    height: 40px;
+    font-size: 20px;
+}
