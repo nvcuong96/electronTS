@@ -30,6 +30,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "sqlite-electron": "^3.0.5"
+    "sqlite-electron": "^3.1.1"
   }
 }
